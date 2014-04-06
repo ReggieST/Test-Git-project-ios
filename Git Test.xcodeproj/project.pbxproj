@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02797D9918F1029C008F35DE /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 02797D9818F1029C008F35DE /* CCTest.m */; };
 		02FF243718EFC2410077474E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FF243618EFC2410077474E /* Foundation.framework */; };
 		02FF243918EFC2410077474E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FF243818EFC2410077474E /* CoreGraphics.framework */; };
 		02FF243B18EFC2410077474E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FF243A18EFC2410077474E /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02797D9718F1029C008F35DE /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		02797D9818F1029C008F35DE /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 		02FF243318EFC2410077474E /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02FF243618EFC2410077474E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		02FF243818EFC2410077474E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +118,8 @@
 				02FF244518EFC2410077474E /* CQAppDelegate.h */,
 				02FF244618EFC2410077474E /* CQAppDelegate.m */,
 				02FF244818EFC2410077474E /* Main.storyboard */,
+				02797D9718F1029C008F35DE /* CCTest.h */,
+				02797D9818F1029C008F35DE /* CCTest.m */,
 				02FF244B18EFC2410077474E /* CQViewController.h */,
 				02FF244C18EFC2410077474E /* CQViewController.m */,
 				02FF244E18EFC2410077474E /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02FF244718EFC2410077474E /* CQAppDelegate.m in Sources */,
+				02797D9918F1029C008F35DE /* CCTest.m in Sources */,
 				02FF244318EFC2410077474E /* main.m in Sources */,
 				02FF244D18EFC2410077474E /* CQViewController.m in Sources */,
 			);
@@ -461,6 +467,7 @@
 				02FF246718EFC2410077474E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02FF246818EFC2410077474E /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				02FF246A18EFC2410077474E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
